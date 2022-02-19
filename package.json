@@ -6,8 +6,8 @@
   "scripts": {
     "start": "node index.js"
   },
-  "author": "Dinav69",
-  "license": "ISC",
+  "author": "https://github.com/Mani-Vernix",
+  "license": "MIT",
   "dependencies": {
     "ascii-table": "^0.0.9",
     "beautify": "^0.0.8",
