@@ -1,11 +1,3 @@
-// =============== Port ===============
-const express = require('express');
-const app = express();
-const port = 3000;
-
-app.get('/', (req, res) => res.send('Bot Is Working Well!'));
-
-app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`));
 //======================== CONSTS ===========================
 const Discord = require('discord.js');
 const client = new Discord.Client( { disableMentions: "everyone" } );
@@ -38,8 +30,8 @@ client.on('ready', () => {
 	const channel = client.channels.cache.get("919570637121523752");
 	if (!channel) return console.error("I did not find the channel!");
 	channel.join().then(connection => {
-		connection.voice.setSelfDeaf(true); // false or true
-		connection.voice.setSelfMute(false); // false or true
+		connection.voice.setSelfDeaf(true); 
+		connection.voice.setSelfMute(false); 
 		console.log("I entered the channel");
 	}).catch(e => {
 		console.error(e);
