@@ -1,7 +1,7 @@
 {
-  "name": "blob-bot",
+  "name": "zeta",
   "version": "1.0.0",
-  "description": "Server Logging Discord Bot",
+  "description": "A discord bot that i created for ZETA family",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
