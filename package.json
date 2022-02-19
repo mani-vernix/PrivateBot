@@ -1,0 +1,21 @@
+{
+  "name": "blob-bot",
+  "version": "1.0.0",
+  "description": "Server Logging Discord Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Dinav69",
+  "license": "ISC",
+  "dependencies": {
+    "ascii-table": "^0.0.9",
+    "beautify": "^0.0.8",
+    "discord-canvas": "^1.4.1",
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "moment": "^2.29.1"
+  }
+}
