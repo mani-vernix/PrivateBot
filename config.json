@@ -1,5 +1,5 @@
 {
-	"token": "PUT_YOUR_TOKEN_HERE",
+    "token": "PUT_YOUR_TOKEN_HERE",
     "LogsChannel": "919570640003039272",
     "WelcomeChannel": "919570636047806525",
     "prefix": "!",
